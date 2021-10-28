@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
         let name = document.querySelector("input[name=name").value;
 
         if (name.value === "") {
-            alert("All fields are required!");
+            alert("All fields are required!"); //where is the array yo???
         };
 
         document.getElementById('hello-you').innerHTML = `That's great, ${name.value} . . . we're gonna call you ____`;
