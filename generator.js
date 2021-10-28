@@ -5,8 +5,6 @@ window.addEventListener("load", function() {
 
         let name = document.querySelector("input[name=name").value;
 
-        console.log(name);
-
         if (name.value === "") {
             alert("All fields are required!");
         };
